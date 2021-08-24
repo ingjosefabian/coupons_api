@@ -1,0 +1,35 @@
+
+management:
+  endpoints:
+    web:
+      base-path: /monitoring
+
+resilience4j.circuitbreaker:
+  instances:
+    items:
+      registerHealthIndicator: true
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 3
+
+resilience4j.ratelimiter:
+  configs:
+    default:
+      registerHealthIndicator: true
+      timeout: 3000
+
+api:
+  auth:
+    basic:
+      user: meli
+      pass: test
+  clients:
+    meli:
+      items:
+        url: http://localhost:1200
+        timeout: 500
+    cache:
+      redis:
+        enable: false
+      memory:
+        time-to-life: 30
+        maximum-size: 10

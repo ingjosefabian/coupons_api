@@ -1,0 +1,81 @@
+openapi: 3.0.3
+info:
+  description: >-
+    This api allows to calculate the maximum value that can be used from a coupon given a list of favorite items.
+  version: 1.0.0
+  x-template-version: 3.0.0
+  title: Cuopon Api
+  contact:
+    name: José Fabián Mejía Rada
+    email: ing.josefabian@gmail.com
+servers:
+  - url: /api
+paths:
+  /coupon:
+    post:
+      tags:
+        - Calculate the maximum value that can be used from a coupon
+      summary: Calculate the maximum value that can be used from a coupon
+      description: >-
+        Calculate the maximum value that can be used from a coupon given a list of favorite items
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CouponRequest'
+            examples:
+              request:
+                $ref: '#/components/examples/CouponRequestExample'
+        required: true
+      responses:
+        '200':
+          description: Maximum value of the coupon that can be used and the items that can be purchased
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CouponResponse'
+              examples:
+                OkResponseExample:
+                  $ref: '#/components/examples/OkCouponResponseExample'
+        '404':
+          description:
+            The coupon cannot be used because the values of the items exceed the value of the quota
+        '400':
+          description:
+            The amount entered is not valid. Values ​​less than zero are not allowed
+        '401':
+          description:  The credentials used are not valid
+
+components:
+  schemas:
+    CouponRequest:
+      type: object
+      properties:
+        amount:
+          type: number
+          description: Coupon value
+        item_ids:
+          type: array
+          description: favorite items
+          items:
+            type: string
+    CouponResponse:
+      type: object
+      properties:
+        total:
+          type: number
+          description: Maximum value of the coupon that can be used
+        item_ids:
+          type: array
+          description: items that can be purchased
+          items:
+            type: string
+  examples:
+    CouponRequestExample:
+      value:
+        amount: 500
+        item_ids : ["MLA1", "MLA2", "MLA3", "MLA4", "MLA5"]
+    OkCouponResponseExample:
+      value:
+        total: 480
+        item_ids: ["MLA1","MLA2","MLA4", "MLA5" ]

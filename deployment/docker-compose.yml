@@ -1,0 +1,19 @@
+version: '3'
+services:
+  wiremock:
+    image: rodolpheche/wiremock
+    container_name: wiremock
+    ports:
+      - 8080:8080
+    volumes:
+      - ./wiremock:/home/wiremock
+
+  coupons:
+    image: meli-coupons-api
+    container_name: coupons-api
+    ports:
+      - 9191:9191
+    depends_on:
+      - wiremock
+    networks:
+      - default

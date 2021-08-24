@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/ML3"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "ok-ML3.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

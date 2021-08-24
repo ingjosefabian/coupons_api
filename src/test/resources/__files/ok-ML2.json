@@ -1,0 +1,276 @@
+{
+  "id": "ML2",
+  "site_id": "MCO",
+  "title": "Item De Test - No Ofertar Pant Boxer Patprimo",
+  "subtitle": null,
+  "seller_id": 627862789,
+  "category_id": "MCO162236",
+  "official_store_id": 1041,
+  "price": 210,
+  "base_price": 210,
+  "original_price": null,
+  "currency_id": "COP",
+  "initial_quantity": 1,
+  "available_quantity": 1,
+  "sold_quantity": 0,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "2230280",
+      "value_name": "Garantía del vendedor",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230280",
+          "name": "Garantía del vendedor",
+          "struct": null
+        }
+      ]
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tiempo de garantía",
+      "value_id": null,
+      "value_name": "90 días",
+      "value_struct": {
+        "number": 90,
+        "unit": "días"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "90 días",
+          "struct": {
+            "number": 90,
+            "unit": "días"
+          }
+        }
+      ]
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "start_time": "2021-03-01T22:46:48.000Z",
+  "stop_time": "2041-02-24T04:00:00.000Z",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.co/MCO-609835351-item-de-test-no-ofertar-pant-boxer-patprimo-_JM",
+  "thumbnail_id": "798445-MCO43696818591_102020",
+  "thumbnail": "http://http2.mlstatic.com/D_798445-MCO43696818591_102020-I.jpg",
+  "secure_thumbnail": "https://http2.mlstatic.com/D_798445-MCO43696818591_102020-I.jpg",
+  "pictures": [
+    {
+      "id": "804388-MCO45048992696_032021",
+      "url": "http://http2.mlstatic.com/D_804388-MCO45048992696_032021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_804388-MCO45048992696_032021-O.jpg",
+      "size": "500x438",
+      "max_size": "548x481",
+      "quality": ""
+    },
+    {
+      "id": "798445-MCO43696818591_102020",
+      "url": "http://http2.mlstatic.com/D_798445-MCO43696818591_102020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_798445-MCO43696818591_102020-O.jpg",
+      "size": "416x500",
+      "max_size": "1500x1800",
+      "quality": ""
+    },
+    {
+      "id": "721422-MCO43696818590_102020",
+      "url": "http://http2.mlstatic.com/D_721422-MCO43696818590_102020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_721422-MCO43696818590_102020-O.jpg",
+      "size": "416x500",
+      "max_size": "1500x1800",
+      "quality": ""
+    },
+    {
+      "id": "947567-MCO43696818592_102020",
+      "url": "http://http2.mlstatic.com/D_947567-MCO43696818592_102020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_947567-MCO43696818592_102020-O.jpg",
+      "size": "500x500",
+      "max_size": "500x500",
+      "quality": ""
+    }
+  ],
+  "video_id": "YOUTUBE_ID_HERE",
+  "descriptions": [
+    {
+      "id": "MCO609835351-3274485912"
+    }
+  ],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": [],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUNPQ0NPVGFiYzZm",
+      "name": "Cota"
+    },
+    "state": {
+      "id": "CO-CUN",
+      "name": "Cundinamarca"
+    },
+    "country": {
+      "id": "CO",
+      "name": "Colombia"
+    },
+    "search_location": {
+      "city": {
+        "id": "TUNPQ0NPVGFiYzZm",
+        "name": "Cota"
+      },
+      "state": {
+        "id": "TUNPUENVTmE3NmQ4",
+        "name": "Cundinamarca"
+      }
+    },
+    "id": 1126031513
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": null,
+      "value_name": "Patprimo",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "Patprimo",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "COMPOSITION",
+      "name": "Composición",
+      "value_id": null,
+      "value_name": "POLIÉSTER 84%-ELASTANO 16%",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "POLIÉSTER 84%-ELASTANO 16%",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "GENDER",
+      "name": "Género",
+      "value_id": "339666",
+      "value_name": "Hombre",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "339666",
+          "name": "Hombre",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    }
+  ],
+  "warnings": [],
+  "listing_source": "",
+  "variations": [
+    {
+      "id": 77517719275,
+      "price": 19900.00,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283165",
+          "value_name": "Gris",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "283165",
+              "name": "Gris",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "433336",
+          "value_name": "XL",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "433336",
+              "name": "XL",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 1,
+      "sold_quantity": 0,
+      "sale_terms": [],
+      "picture_ids": [
+        "798445-MCO43696818591_102020",
+        "721422-MCO43696818590_102020",
+        "947567-MCO43696818592_102020"
+      ],
+      "catalog_product_id": null
+    }
+  ],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "poor_quality_picture",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantía del vendedor: 90 días",
+  "catalog_product_id": null,
+  "domain_id": "MCO-UNDERPANTS",
+  "parent_item_id": null,
+  "differential_pricing": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2021-03-01T22:46:48.000Z",
+  "last_updated": "2021-03-05T13:11:46.838Z",
+  "health": 0.5,
+  "catalog_listing": false,
+  "channels": [
+    "marketplace"
+  ]
+}

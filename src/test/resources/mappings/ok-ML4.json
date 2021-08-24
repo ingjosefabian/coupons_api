@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/ML4"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "ok-ML4.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

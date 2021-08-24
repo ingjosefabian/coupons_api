@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/ML5"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "ok-ML5.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

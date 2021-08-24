@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/items/MCO600787211"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "ok-MCO600787211.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

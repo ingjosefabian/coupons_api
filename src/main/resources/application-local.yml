@@ -1,0 +1,37 @@
+server:
+  port: 9191
+
+management:
+  endpoints:
+    web:
+      base-path: /monitoring
+
+resilience4j.circuitbreaker:
+  instances:
+    items:
+      registerHealthIndicator: true
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 3
+
+resilience4j.ratelimiter:
+  configs:
+    default:
+      registerHealthIndicator: true
+      timeout: 5000
+
+api:
+  auth:
+    basic:
+      user: meli
+      pass: mel1
+  clients:
+    meli:
+      items:
+        url: http://wiremock:8080/items/
+        timeout: 5000
+    cache:
+      redis:
+        enable: false
+      memory:
+        time-to-life: 5
+        maximum-size: 10

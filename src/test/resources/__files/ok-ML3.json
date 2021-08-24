@@ -1,0 +1,402 @@
+{
+  "id": "ML3",
+  "site_id": "MCO",
+  "title": "Item De Test - No Ofertar",
+  "subtitle": null,
+  "seller_id": 246567973,
+  "category_id": "MCO157280",
+  "official_store_id": null,
+  "price": 260,
+  "base_price": 260,
+  "original_price": null,
+  "currency_id": "COP",
+  "initial_quantity": 126,
+  "available_quantity": 52,
+  "sold_quantity": 0,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "2230280",
+      "value_name": "Garantía del vendedor",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230280",
+          "name": "Garantía del vendedor",
+          "struct": null
+        }
+      ]
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tiempo de garantía",
+      "value_id": null,
+      "value_name": "60 días",
+      "value_struct": {
+        "number": 60,
+        "unit": "días"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "60 días",
+          "struct": {
+            "number": 60,
+            "unit": "días"
+          }
+        }
+      ]
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "start_time": "2021-01-08T13:58:12.000Z",
+  "stop_time": "2041-01-03T04:00:00.000Z",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.co/MCO-600787211-item-de-test-no-ofertar-_JM",
+  "thumbnail_id": "885646-MCO44526132321_012021",
+  "thumbnail": "http://http2.mlstatic.com/D_885646-MCO44526132321_012021-I.jpg",
+  "secure_thumbnail": "https://http2.mlstatic.com/D_885646-MCO44526132321_012021-I.jpg",
+  "pictures": [
+    {
+      "id": "885646-MCO44526132321_012021",
+      "url": "http://http2.mlstatic.com/D_885646-MCO44526132321_012021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_885646-MCO44526132321_012021-O.jpg",
+      "size": "441x500",
+      "max_size": "961x1088",
+      "quality": ""
+    },
+    {
+      "id": "909846-MCO44526132320_012021",
+      "url": "http://http2.mlstatic.com/D_909846-MCO44526132320_012021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_909846-MCO44526132320_012021-O.jpg",
+      "size": "441x500",
+      "max_size": "961x1088",
+      "quality": ""
+    },
+    {
+      "id": "804526-MCO44526132319_012021",
+      "url": "http://http2.mlstatic.com/D_804526-MCO44526132319_012021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_804526-MCO44526132319_012021-O.jpg",
+      "size": "441x500",
+      "max_size": "961x1088",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [
+    {
+      "id": "MCO600787211-3152240404"
+    }
+  ],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "free_methods": [
+      {
+        "id": 501745,
+        "rule": {
+          "default": true,
+          "free_mode": "country",
+          "free_shipping_flag": true,
+          "value": null
+        }
+      }
+    ],
+    "tags": [
+      "mandatory_free_shipping"
+    ],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": true,
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUNPQ0JVQzkzMTE4",
+      "name": "Bucaramanga"
+    },
+    "state": {
+      "id": "CO-SAN",
+      "name": "Santander"
+    },
+    "country": {
+      "id": "CO",
+      "name": "Colombia"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TUNPQlBSTzcyNzM5NA",
+        "name": "Provenza"
+      },
+      "city": {
+        "id": "TUNPQ0JVQzkzMTE4",
+        "name": "Bucaramanga"
+      },
+      "state": {
+        "id": "TUNPUFNBTnJlMjMw",
+        "name": "Santander"
+      }
+    },
+    "id": 265097847
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BLOUSE_MATERIAL",
+      "name": "Material de la blusa",
+      "value_id": "498506",
+      "value_name": "Poliéster",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "498506",
+          "name": "Poliéster",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": null,
+      "value_name": "DEREK",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "DEREK",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "GENDER",
+      "name": "Género",
+      "value_id": "339665",
+      "value_name": "Mujer",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "339665",
+          "name": "Mujer",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": null,
+      "value_name": "2020",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "2020",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "RELEASE_SEASON",
+      "name": "Temporada de lanzamiento",
+      "value_id": "994283",
+      "value_name": "Primavera/Verano",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "994283",
+          "name": "Primavera/Verano",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    }
+  ],
+  "warnings": [],
+  "listing_source": "",
+  "variations": [
+    {
+      "id": 72597484372,
+      "price": 137990.00,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3330809",
+          "value_name": "S",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3330809",
+              "name": "S",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 1,
+      "sold_quantity": 0,
+      "sale_terms": [],
+      "picture_ids": [
+        "885646-MCO44526132321_012021",
+        "909846-MCO44526132320_012021",
+        "804526-MCO44526132319_012021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 72597484388,
+      "price": 137990.00,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "2282666",
+          "value_name": "M",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2282666",
+              "name": "M",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 1,
+      "sold_quantity": 0,
+      "sale_terms": [],
+      "picture_ids": [
+        "885646-MCO44526132321_012021",
+        "909846-MCO44526132320_012021",
+        "804526-MCO44526132319_012021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 72597484402,
+      "price": 137990.00,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3330811",
+          "value_name": "L",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3330811",
+              "name": "L",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 50,
+      "sold_quantity": 0,
+      "sale_terms": [],
+      "picture_ids": [
+        "885646-MCO44526132321_012021",
+        "909846-MCO44526132320_012021",
+        "804526-MCO44526132319_012021"
+      ],
+      "catalog_product_id": null
+    }
+  ],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "poor_quality_picture",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantía del vendedor: 60 días",
+  "catalog_product_id": null,
+  "domain_id": "MCO-BLOUSES",
+  "parent_item_id": null,
+  "differential_pricing": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2021-01-08T13:58:12.000Z",
+  "last_updated": "2021-05-07T13:35:16.115Z",
+  "health": 0.66,
+  "catalog_listing": false,
+  "channels": [
+    "marketplace"
+  ]
+}
