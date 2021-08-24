@@ -46,6 +46,10 @@ The following guides illustrate how to use some features concretely:
          http://localhost:9191/api/coupon
 ``` 
 
+NOTE: See more information about Api contracts.
+    1. Open https://editor.swagger.io/
+    2. Paste content file. https://github.com/ingjosefabian/coupons_api/blob/master/src/main/resources/api.yml
+
 * ###How to enable a particular cache output adapter?
 
     To enable an output adapter for cache use the property from the application.yml file.
